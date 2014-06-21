@@ -16,6 +16,9 @@
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
+ <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.title == "Archive" %} active{% endif %}" href="/Archive/">Archive</a>
+    
     <a class="sidebar-nav-item" href="/archive/">Archive</a>
 
     {% assign pages_list = site.pages %}
