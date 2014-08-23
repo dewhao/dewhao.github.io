@@ -6,19 +6,17 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            DayDream
-tagline:          'A shy pig'
-description:      'A blog just for fun. '
-url:              http://dewhao.github.io
-
+title:            Poole
+tagline:          The Jekyll Butler
+url:              http://getpoole.com
+paginate:         1
+baseurl:          /
 author:
-  name:           'dewhao'
-  url:            https://twitter.com/dewhao
-
-paginate:         5
+  name:           Mark Otto
+  url:            https://twitter.com/mdo
+  email:          markdotto@gmail.com
 
 # Custom vars
-version:          2.0.0
-
+version:          1.0.0
 github:
-  repo:           https://github.com/dewhao
+  repo:           https://github.com/poole/poole
